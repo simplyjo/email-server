@@ -1,0 +1,12 @@
+{
+  "hosting":{
+    "public":"public",
+    "rewrites": [{
+      "source": "**",
+      "function": "app"
+      }]
+  },
+  "projects": {
+    "default": "ethers-3e73b"
+  }
+}
